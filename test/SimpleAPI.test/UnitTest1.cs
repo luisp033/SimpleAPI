@@ -12,8 +12,7 @@ public class UnitTest1
     {
         var returnValue = controller.Get();
         Console.WriteLine(returnValue);
-        //Assert.NotNull(returnValue);
-        Assert.Null(returnValue);
+        Assert.NotNull(returnValue);
     }
 
 
